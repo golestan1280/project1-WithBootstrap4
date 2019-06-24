@@ -1,0 +1,176 @@
+@font-face{
+    font-family: 'Iran Sans';
+    src: url(../font/A-Iranian-Sans/Iranian\ Sans.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Iran Sans'; 
+  
+}
+
+.backImage0{
+    background-image: url('../img/backImage0.png');
+    height: 250;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 100%;
+}
+
+.backImage1{
+    background-image: url('../img/backImage1.png');
+    height: 250px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.bg-DarkBlue{
+    background-color: #2f4994;
+}
+.cardStyle{
+    position: relative;
+}
+.cardBorderStyle1{
+    height: 80%;
+    position: absolute;
+    
+    border-left: 2px solid #efefef;
+    border-top:2px solid #efefef;
+    top:10px;
+    left: 1%;
+    width: 79%;
+    margin-right:auto;
+    margin-left:auto;
+
+    
+}
+
+.cardBorderStyle2{
+    border-right:2px solid #efefef;
+    border-bottom:2px solid #efefef;
+    height: 280px;
+
+}
+
+.font-14{
+    font-size: 14px;
+}
+.bg-blueMedum{
+    background-color: #3758b7;
+}
+
+.bg-blueDark2{
+    background-color: #263d80;
+}
+
+.bg-yellowMedum{
+    background-color: #de9804;
+}
+
+.bg-yellow{
+    background-color: #fbb114;
+}
+.bg-lightBlue{
+    background-color: #3ec6d4;
+}
+
+.bg-lightBlue2{
+    background-color: #37a9b4;
+}
+
+.text-Grey{
+    color:#838383;
+}
+
+
+.text-Green{
+    color: #7a9e4e;
+
+}
+.text-blue{
+    color: #394a6f;
+}
+
+.fontWeight900{
+    font-weight:900;
+    font-size: 24px;
+}
+
+.fontWeight{
+    font-weight: 700;
+}
+
+.backLigthRight{
+    background-image: url(../img/backTransparentRight.png);
+    height: 400px;
+
+}
+
+.heightLeftBorder{
+    height: 375px;
+}
+
+.divRightMenue{
+    margin:0px;
+    position: relative;
+}
+.m-divRight{
+    margin-top: -55px;
+}
+
+
+.styleUnderYellow{
+    margin:0px ;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .m-divRight{
+        margin-top: 0px;
+        margin-left: -13px !important;
+        margin-right: 26px !important;
+    }
+  
+
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+
+    .cardBorderStyle2{
+        height: 340px;
+    }
+    .m-divRight{
+        margin-top:-2px;
+        
+    }
+
+}
+
+@media screen and (max-width:1270px){
+
+   
+    .font-nav{        
+        font-size:1.1vw;        
+    }
+
+    .font-14{
+        font-size: 1.1vw;
+    }
+
+}
+
+@media screen and (max-width:576px){
+
+   body{
+       font-size: 1.9vw !important;
+   }
+   
+
+}
+
